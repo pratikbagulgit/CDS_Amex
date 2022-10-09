@@ -12,10 +12,10 @@
 <body>
   <nav style="background-color: #5e72e4" class="lighten-1"  role="navigation" style="height: 100px">
     <div class="nav-wrapper container">
-      <a id="logo-container" class="brand-logo center"><h5>Customer Default Prediction</h5></a>
-      <div style="margin-left: 800px">
-      	   Made by <a class="orange-text text-lighten-3">Group 1</a>
-      </div>
+      <a id="logo-container" class="brand-logo center"></a><img src="./static/uploads/logo.jpg" alt="logo" height="60"></a>
+          
+      <a id="logo-container" class="brand-logo center"><h5>American Express Customer Default Prediction</h5></a>
+      
     </div>
   </nav>
 
@@ -46,12 +46,12 @@
           </div>
     
           <div class="row center">
-            <button type="submit" class="btn-large" style="background-color: #5e72e4">Check</button>
+            <button type="submit" class="btn-large" style="background-color: #5e72e4">Submit</button>
           </div>
         </form>
         <div class="col s4">
-          <img src="./static/uploads/feature.jpeg" alt="Feature importance" width="725" 
-          height="600">
+          <img src="./static/uploads/top-features.jpeg" alt="Feature importance" 
+          >
         </div> 
        	<div style="text-align: center; padding-top: 50px">
       		<table>{{pred | safe}}</table>

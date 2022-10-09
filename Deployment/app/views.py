@@ -65,7 +65,7 @@ def index():
             final_data=np.dstack((customer_data_array,ynew))
 
             # create table 
-            stringg='<tr><th>Customer ID</th><th>Default Or Not</th></tr>'
+            stringg='<tr><th style="color:white;background-color: #5e72e4">Customer ID</th><th style="color:white;background-color: #5e72e4">Default Or Not Default</th></tr>'
             for i in range(len(customer_data_array)):
                 if ynew[i]==1:
                     cust="Default"
