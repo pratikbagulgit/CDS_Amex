@@ -48,8 +48,7 @@
   
    
   <div class="full-width-image">
-    <img src="./static/uploads/Title.jpeg" class="img-fluid w-100""
-      alt="Responsive image">
+    <img src="./static/uploads/Title.jpeg" class="img-fluid w-100" alt="Responsive image">
   </div>
 </head>
 <body>
